@@ -1,2 +1,45 @@
-.box {
+Header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1{
+
+}
+
+Nav{
+
+}
+
+Main{
+
+}
+
+footer{
+
+}
+
+.nav{
+  background-color: grey;
+  color: white;
+}
+
+
+.picture{
+  display: inline-block;
+
+}
+
+.picnav{
+  background-color: yellow;
+}
+
+.toppart{
+  background-color: teal;
+}
+
+footer{
+  background-color: black
+  color:white
 }
