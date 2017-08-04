@@ -1,3 +1,7 @@
+html{
+  font-family: sans-serif;
+}
+
 Header {
   background-color: black;
   color: white;
@@ -16,30 +20,70 @@ Main{
 
 }
 
-footer{
 
+footer{
+  background-color: black;
+  color:white;
 }
+
+.nav a {
+    background-color: white;
+    text-decoration: none;
+    width: 50px;
+    padding:gray;
+    border: 5px gray
+}
+
+.nav h2 {
+  display: inline-block;
+  color:white;
+  margin: 1px;
+  background-color:gray;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+}
+
+.title{
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.box{
+  width: 300px;
+  display:inline-block;
+  margin: 10px;
+  image-orientation: center;
+  }
+
 
 .nav{
-  background-color: grey;
-  color: white;
+  background-color:#;
+  text-align: center;
 }
 
+.main_box {
+  margin:0 auto;
+  width: 970px;
+}
 
-.picture{
-  display: inline-block;
+.box img{
+  width: 300px;
+  height: 300px;
 
 }
 
 .picnav{
   background-color: yellow;
+  text-align: center;
+  max-width:480px;
 }
 
 .toppart{
-  background-color: teal;
-}
-
-footer{
-  background-color: black
-  color:white
+  background-color: cyan;
+  font-size: 24px;
+  margin-bottom: 5px;
 }
